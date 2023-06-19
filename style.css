@@ -397,3 +397,51 @@ nav {
     padding: 20px;
     margin: 20px 0;
 }
+
+.post-container .user-profile span {
+    font-size: 13px;
+    color: gray;
+}
+
+.post-container .post-image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.post-container .post-image p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post-container .post-image p span {
+    font-weight: 500;
+    color: #1157ec;
+
+}
+
+.post-container .post-image a {
+    text-decoration: none   ;
+}
+
+.post-container .post-image img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.post-container .like-bottom {
+    width: 100%;
+}
+
+.post-container .like-bottom img {
+    width: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    float: left;
+    
+}
