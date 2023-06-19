@@ -431,17 +431,20 @@ nav {
     margin-bottom: 5px;
 }
 
-.post-container .like-bottom {
+.post-containern .post-row {
     width: 100%;
+} 
+
+.post-container .post-row .row {
+    display: inline-block;
+    margin-right: 10px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
 }
 
-.post-container .like-bottom img {
-    width: 20px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 10px;
-    float: left;
-    
+.post-container .post-row .row img {
+    width: 15px;
 }
+
