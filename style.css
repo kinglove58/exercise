@@ -398,53 +398,24 @@ nav {
     margin: 20px 0;
 }
 
-.post-container .user-profile span {
-    font-size: 13px;
-    color: gray;
-}
-
-.post-container .post-image {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-}
-
-.post-container .post-image p {
-    margin-bottom: 10px;
+.post-container .post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
     font-size: 15px;
 }
 
-.post-container .post-image p span {
+.post-container .post-text span {
+    font-size: 13px;
+    color: red;
     font-weight: 500;
-    color: #1157ec;
-
 }
 
-.post-container .post-image a {
-    text-decoration: none   ;
+.post-container .post-text span {
+    color: #626262;
+    font-weight: 500;
 }
 
-.post-container .post-image img {
-    width: 100%;
-    border-radius: 4px;
-    margin-bottom: 5px;
+.post-container .user-profile {
+    display: flex;
+    flex-direction: rowl;
 }
-
-.post-containern .post-row {
-    width: 100%;
-} 
-
-.post-container .post-row .row {
-    display: inline-block;
-    margin-right: 10px;
-    align-self: center;
-    text-align: center;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.post-container .post-row .row img {
-    width: 15px;
-}
-
