@@ -404,18 +404,8 @@ nav {
     font-size: 15px;
 }
 
-.post-container .post-text span {
+.post-container .post-text span{
     font-size: 13px;
-    color: red;
+    color: rgb(235, 32, 32);
     font-weight: 500;
-}
-
-.post-container .post-text span {
-    color: #626262;
-    font-weight: 500;
-}
-
-.post-container .user-profile {
-    display: flex;
-    flex-direction: rowl;
 }
