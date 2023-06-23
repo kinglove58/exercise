@@ -490,3 +490,38 @@ footer .footer-content p{
     color: #626262;
     margin-bottom: 5px;
 }
+
+nav .setting-menu {
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background: white;
+    right: 5%;
+    top: 108%;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/* nav .setting-menu .user-profile {
+    margin-bottom: 13px;
+}
+ */
+nav .setting-menu .user-profile a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+
+nav .setting-menu .setting-menu-inner {
+    padding: 20px;
+}
+
+nav .setting-menu .setting-menu-inner hr {
+    background-color: #9a9a9a;
+    border: 0;
+    height: 1px;
+    margin: 15px 0;
+    width: 100%;
+}
