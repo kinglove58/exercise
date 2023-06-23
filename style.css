@@ -360,6 +360,10 @@ nav {
     font-size: 12px;
 }
 
+.post-container .post-row .user-profile span {
+    color: gray;
+}
+
 .post-input-container {
     padding-left: 55px;
     padding-top: 20px;
@@ -455,4 +459,34 @@ nav {
 
 .post-container .post-row a {
     color: #626262;
+}
+
+.main-content .Load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.main-content .Load-more-btn:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+footer .footer-content p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #626262;
+    margin-bottom: 5px;
 }
