@@ -514,6 +514,11 @@ nav .setting-menu .user-profile a {
     font-size: 12px;
 }
 
+nav .setting-menu .user-profile:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 nav .setting-menu .setting-menu-inner {
     padding: 20px;
 }
@@ -524,4 +529,8 @@ nav .setting-menu .setting-menu-inner hr {
     height: 1px;
     margin: 15px 0;
     width: 100%;
+}
+
+.nav .setting-menu .setting-menu-inner .setting-link img{
+    width: 18px;
 }
