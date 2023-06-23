@@ -317,6 +317,10 @@ nav {
     background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-5.png);
 }
 
+.story1:hover, .story2:hover, .story3:hover, .story4:hover {
+    transform: scale(1.07);
+}
+
 .story.story-upload img {
     top: unset;
     border: 0;
@@ -427,13 +431,28 @@ nav {
     justify-content: space-between;
 }
 
-.post-container .post-row .activities-icon img {
-    display: flex;
+.post-container .post-row .activities-icon div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-container .post-row .activities-icon div img {
     margin-right: 10px;
     width: 18px;
 }
 
-.post-container .post-row .activities-icon div{
-    display: inline-flex;
+.post-container .post-row .post-profile-icon {
+    display: flex;
     align-items: center;
+}
+
+.post-container .post-row .post-profile-icon img {
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.post-container .post-row a {
+    color: #626262;
 }
