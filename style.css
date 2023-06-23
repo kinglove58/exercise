@@ -406,6 +406,34 @@ nav {
 
 .post-container .post-text span{
     font-size: 13px;
-    color: rgb(235, 32, 32);
+    color: rgb(105, 94, 94);
     font-weight: 500;
+}
+
+.post-container .post-text a {
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.post-container .post-image {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.post-container .post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-container .post-row .activities-icon img {
+    display: flex;
+    margin-right: 10px;
+    width: 18px;
+}
+
+.post-container .post-row .activities-icon div{
+    display: inline-flex;
+    align-items: center;
 }
