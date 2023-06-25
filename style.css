@@ -501,6 +501,12 @@ nav .setting-menu {
     top: 108%;
     overflow: hidden;
     border-radius: 4px;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.setting-menu-height {
+    max-height: 450px;
 }
 
 /* nav .setting-menu .user-profile {
