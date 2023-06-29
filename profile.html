@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechKing clone of social book</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8bc1557c08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+                <img src="img/logo2.png" alt="logo" class="logo">
+            <ul>
+                <li><img src="img/notification.png" alt="notification" class="notification"></li>
+                <li><img src="img/inbox.png" alt="inbox"></li>
+                <li><img src="img/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div    class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="search icon">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/profile-pic.png" alt="profile">
+            </div>
+        </div>
+        <!-------------- DROP DOWN MENU OR SETTINGS MENUS--------------->
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png">
+                    <div>
+                        <p>John Nison</p>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Give a feedback</p>
+                        <a href="#">Help us to improve our new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="img/setting.png" alt="setting image" class="setting-icon">
+                    <a href="#">Settings & Privacy <img src="img/arrow.png" alt="arrow" width="10px"></a>
+
+                </div>
+                <div class="setting-link">
+                    <img src="img/help.png" alt="help" class="setting-icon">
+                    <a href="#">Help & Support<img src="img/arrow.png" alt="arrow" width="10px"></a>
+
+                </div>
+                <div class="setting-link">
+                    <img src="img/display.png" alt="setting image" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="img/arrow.png" alt="arrow" width="10px"></a>
+
+                </div>
+                <div class="setting-link">
+                    <img src="img/logout.png" alt="setting image" class="setting-icon">
+                    <a href="#">Logout<img src="img/arrow.png" alt="arrow" width="10px"></a>
+
+                </div>
+            </div>
+           
+        </div>
+    </nav>
+
+    <!-- --------- PROFILE PAGE --------------- -->
+    <div class="profile-container">
+        <img src="img/cover.png" alt="profile cover image" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-roll">
+                    <img src="img/profile.png" alt="profile" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholas</h3>
+                        <p>120 Friends - 20 Mutuals</p>
+                        <img src="img/member-1.png" alt="friend image">
+                        <img src="img/member-2.png" alt="friend image">
+                        <img src="img/member-3.png" alt="friend image">
+                        <img src="img/member-4.png" alt="friend image">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>copyright 2023 Obafemi - TechKing</p>
+        </div>
+    </footer>
+</body>
+</html>

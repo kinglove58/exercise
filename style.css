@@ -7,9 +7,11 @@
 :root {
     --COLOR: white;
     --BACKGROUND-COLOR: #1876f2;
+    --NEWBACKGROUND: #efefef;
 }
 body {
-  background-color: whitesmoke;
+  background-color: var(--NEWBACKGROUND);
+  transition: background 0.3s;
 }
 
 nav {
@@ -120,7 +122,7 @@ nav {
     top: 70px;
     align-self: flex-start;
     padding: 20px;
-    background-color: #fff;
+    background-color: var(--COLOR);
     color: #626262;
     border-radius: 4px;
 }
@@ -332,7 +334,7 @@ nav {
 
 .write-post-container {
     width: 100%;
-    background: white;
+    background: var(--COLOR);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -587,3 +589,65 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
     padding-left: 23px;
     background: black;
 }
+
+
+/* ---------- PROFILE PAGE ----------- */
+.profile-container {
+    padding: 20px 15%;
+    color: #626262;
+}
+
+.profile-container .cover-img {
+    width: 100%;
+    margin-bottom: 14px;
+    border-radius: 6px;
+}
+
+.profile-container .profile-details {
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.profile-container .profile-details .pd-left .pd-roll {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.profile-container .profile-details .pd-left .pd-roll .pd-image {
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.profile-container .profile-details .pd-left .pd-roll div h3 {
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+.profile-container .profile-details .pd-left .pd-roll div p {
+    font-size: 13px;
+}
+
+.profile-container .profile-details .pd-left .pd-roll div img {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 25px;
+}
+/* .profile-container .user-profile-container-in-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-container .user-profile-container-in-home .user-profile-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+} */
