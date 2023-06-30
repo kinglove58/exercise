@@ -647,9 +647,10 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
     margin-left: 10px;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
 
 }
-/* .profile-container .user-profile-container-in-home {
+.profile-container .user-profile-container-in-home {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -661,4 +662,4 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
     justify-content: center;
 
 
-} */
+}
