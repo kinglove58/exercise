@@ -650,16 +650,3 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
     cursor: pointer;
 
 }
-.profile-container .user-profile-container-in-home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.profile-container .user-profile-container-in-home .user-profile-left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
