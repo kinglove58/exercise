@@ -651,4 +651,6 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
 
 }
 
-.profile-container
+.profile-container {
+    display: block;
+}
