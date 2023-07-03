@@ -648,9 +648,14 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
     border-radius: 3px;
     color: white;
     cursor: pointer;
-
+    display: inline-flex;
+    align-items: center;
 }
 
-.profile-container {
-    display: block;
+.profile-container .profile-details .pd-right button img{
+    height: 15px;
+    /* width: 30px; */
+    margin-right: 10px;
 }
+
+
