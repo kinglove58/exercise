@@ -676,7 +676,7 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
 }
 
 .profile-container .profile-details .pd-right a img{
-    height: 5px;
+    /* height: 5px; */
     width: 15px;
 }
 
