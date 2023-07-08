@@ -750,3 +750,17 @@ nav .setting-menu .setting-menu-inner .setting-link .setting-icon {
 .profile-container .profile-info .info-col .profile-intro .photo-box img {
     width: 100%;
 }
+
+/* ----------------MEDIA QUARY FOR PROFILE------------------- */
+@media (max-width: 900px) { 
+    .left-sidebar, .right-sidebar, .search-box {
+    display:none;
+}
+.nav {
+    flex-wrap: wrap;
+}
+.logo {
+    width: 110px;
+}
+    
+}
