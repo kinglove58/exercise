@@ -1,10 +1,12 @@
 var settingMenu = document.querySelector(".setting-menu");
 var darkBtn = document.getElementById("dark-btn")
 
+const darkModeBtn  = document.querySelector('.drop-down-class');
+
 function settingsMenuToggle() {
   settingMenu.classList.toggle("setting-menu-height");
 }
 
-darkBtn.onclick = function(){
-  darkBtn.classList.toggle("dark-btn-on");
-}
+darkModeBtn.addEventListener('click', () => {
+  console.log()
+})
